@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project FBChatWordCloud">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+    <target name="create_run_jar">
+        <jar destfile="fb-chat-word-cloud.jar" filesetmanifest="mergewithoutmain">
+            <manifest>
+                <attribute name="Main-Class" value="wordCloud.WordCloud"/>
+                <attribute name="Class-Path" value="."/>
+            </manifest>
+            <fileset dir="FBChatWordCloud/bin"/>
+            <zipfileset excludes="META-INF/*.SF" src="jsoup-1.7.2.jar"/>
+        </jar>
+    </target>
+</project>
