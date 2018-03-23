@@ -25,7 +25,7 @@ or
 ./fb-chat-word-cloud.jar filename name1 name2
 ```
 (you may need to ```sh chmod +x fb-chat-word-cloud.jar``` first
-* "filename" is most likely messages.html, your downloaded message log. Make sure you place this in the same directory as the runnable jar
+* "filename" is most likely messages.htm, your downloaded message log. Make sure you place this in the same directory as the runnable jar
 * "name1" and "name2" are the names you want to generate the cloud for, so, your name and your friend's name. Make sure to enclose the names with quotes ("Firstname Lastname") to preserve spacing
 * a file will be written (cloud.png by default, otherwise, "outputfile" will be used)
 
